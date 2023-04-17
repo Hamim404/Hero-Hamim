@@ -5,8 +5,8 @@ body {
 }
 nav {
 }
-nav .w-25{
-    width: 37%!important;
+nav .w-25 {
+  width: 37% !important;
 }
 ul {
   list-style: none;
@@ -25,27 +25,28 @@ ul li a {
   position: relative;
 }
 ul li:last-child a {
-    margin-left: 17px;
-  }
+  margin-left: 17px;
+}
 ul li a::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-    background: linear-gradient(to left, #fd1c03, #ff3131);
-    z-index: -1;
-    box-shadow: 0 0 10px #ff3131, 0 0 20px #ff3131, 0 0 40px #ff3131,
-      0 0 80px #ff3131, 0 0 100px #ff3131;
-    transition: 0.25s;
-  }
-  ul li:last-child a::before {
-    width: 100%;
-  }
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background: linear-gradient(to left, #fd1c03, #ff3131);
+  z-index: -1;
+  box-shadow: 0 0 10px #ff3131, 0 0 20px #ff3131, 0 0 40px #ff3131,
+    0 0 80px #ff3131, 0 0 100px #ff3131;
+  transition: 0.25s;
+}
+ul li:last-child a::before {
+  width: 100%;
+}
 ul li a:hover::before {
   width: 100%;
 }
-.home{
-
+.home {}
+.name{
+  /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073; */
 }
