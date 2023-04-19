@@ -16,7 +16,6 @@ ul li {
   margin: 0px 0;
 }
 ul li a {
-  /* display: block; */
   text-decoration: none;
   font-size: 18px;
   letter-spacing: 2px;
@@ -49,4 +48,33 @@ ul li a:hover::before {
 .home {}
 .name{
   font-size: 50px;
+}
+.typewrite{
+color: #8f8f8f;
+}
+.btn-neon{
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #fff !important;
+  padding: 10px 25px;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid #fd1c03;
+}
+.btn-neon::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background: linear-gradient(to left, #fd1c03, #ff3131);
+  z-index: -1;
+  box-shadow: 0 0 10px #ff3131, 0 0 20px #ff3131, 0 0 40px #ff3131,
+    0 0 80px #ff3131, 0 0 100px #ff3131;
+  transition: 0.25s;
+}
+.btn-neon:hover::before {
+  width: 100%;
 }
