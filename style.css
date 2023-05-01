@@ -5,7 +5,7 @@ body {
 }
 nav {
 }
-nav .w-25 {
+nav .w-25,.icon .w-25 {
   width: 37% !important;
 }
 ul {
